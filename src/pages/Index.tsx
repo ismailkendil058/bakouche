@@ -286,7 +286,7 @@ const Index = () => {
             <span className="text-xl font-semibold">Pharmacie Bakouche</span>
           </div>
           <p className="text-gray-400 mb-4">Votre santé, notre priorité depuis 2019</p>
-          <p className="text-gray-500 text-sm">© 2025 Pharmacie Bakouche. Tous droits réservés.</p>
+          <p className="text-gray-500 text-sm">© 2019 Pharmacie Bakouche. Tous droits réservés.</p>
         </div>
       </footer>
 
