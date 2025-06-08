@@ -15,7 +15,21 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@lovable_dev" />
     <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-  </head>
+  </head>  
+
+<!-- Load Supabase JS SDK -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+
+<script>
+  // Connect to Supabase
+  const supabase = supabase.createClient(
+    'https://twmkglhvnhyboxzqstpd.supabase.co',
+    'process.env.SUPABASE_KEY'
+  );
+
+  // Example: Fetch promo_packs from Supabas
+</script>
+
 
   <body>
     <div id="root"></div>
